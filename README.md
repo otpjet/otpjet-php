@@ -9,7 +9,7 @@ Check out **[RestFul API Documentation](https://docs.otpjet.com)**
 ```
 use OtpjetPhp\Api\Api;
 $api = new Api();
-$api->sendOTP($apiKey, $templateKey, $mobile, $cc = 91);
+$api->sendOTP($apiKey, $templateKey, $mobile, $countryCode);
 ```
 ### Parameters
 - `apiKey`: Unique project key generated along side the project. and can be found in project's page in panel.
