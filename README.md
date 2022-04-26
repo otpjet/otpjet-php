@@ -7,7 +7,7 @@ Check out **[RestFul API Documentation](https://docs.otpjet.com)**
 
 ## Send OTP
 ```php
-use OtpjetPhp\Api\Api;
+use OtpjetPhp\Api;
 $api = new Api();
 $api->sendOTP($apiKey, $templateKey, $mobile, $countryCode);
 ```
@@ -19,7 +19,7 @@ $api->sendOTP($apiKey, $templateKey, $mobile, $countryCode);
 `sendOTP()` - Returns response which contains `otpKey` which should be stored in session or db for further validation.
 ## Validate OTP
 ```php
-use OtpjetPhp\Api\Api;
+use OtpjetPhp\Api;
 $api = new Api();
 $api->validateOTP($sha1ofOtp, $otpKey);
 ```
