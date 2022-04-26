@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "OtpjetPhp\\Api": "src/"
+            "OtpjetPhp\\Api\\": "src/"
         }
     },
     "authors": [
