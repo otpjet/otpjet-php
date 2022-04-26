@@ -1,6 +1,6 @@
 <?php
 
-namespace OtpjetPhp\Api;
+namespace OtpjetPhp;
 
 class Api
 {
